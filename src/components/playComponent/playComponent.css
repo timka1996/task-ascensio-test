@@ -1,0 +1,31 @@
+.play__component {
+  background-color: #fee9e7;
+  background-image: url("../../images/dots.png");
+  position: relative;
+}
+
+.play__up h1 {
+  font-family: "Roboto";
+  color: var(--black);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 63px;
+  margin-left: 74px;
+  margin-top: 160px;
+}
+.play__up h1 span {
+  background-image: url("../../images/layer.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.play__down {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50vh;
+}
+.play__down img {
+  width: 100%;
+  height: 100%;
+}
