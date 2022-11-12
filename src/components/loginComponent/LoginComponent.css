@@ -1,0 +1,81 @@
+.login__component .frame {
+  background-color: #f8ceca;
+  width: 8px;
+  height: 100vh;
+}
+.login__component .content {
+  width: 100%;
+}
+.login__component .content .logo {
+  margin-top: 46px;
+  margin-left: 38px;
+}
+.login__component .content .text__content {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 175px;
+}
+.login__component .content .text__content h1 {
+  font-family: var(--OpenSans);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 35px;
+  color: var(--boldBlue);
+}
+.login__component .content .text__content h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: var(--OpenSans);
+  color: var(--boldBlue);
+  margin-top: 42px;
+}
+.login__component .content .text__content button {
+  width: 100%;
+  border: 0;
+  margin-top: 37px;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.login__component .content hr {
+  width: 490px;
+  margin: 40px auto;
+}
+.login__component .content .resources {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.login__component .content .resources h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  font-family: var(--OpenSans);
+  color: var(--boldBlue);
+}
+.login__component .content .resources .logos {
+  margin-top: 24px;
+}
+.login__component .content .resources .logos .logos__item img {
+  width: 33px;
+  height: 33px;
+}
+.login__component .content .resources .logos .logos__item p {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: var(--OpenSans);
+  margin-top: 15px;
+  line-height: 22px;
+}
+.login__component .content .resources .logos .logos__item p a {
+  color: black;
+}

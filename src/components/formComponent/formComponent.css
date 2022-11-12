@@ -35,6 +35,9 @@
 .form__component .content .form__content form {
   margin-top: 35px;
 }
+.form__component .content .form__content form p {
+  font-size: 14px;
+}
 .form__component .content .form__content form h6 {
   font-family: "Open Sans";
   font-style: normal;
@@ -70,11 +73,11 @@
 
 .form__component .content .form__content form .check__content label::before {
   content: "";
-  width: 20px;
+  border: 1px solid #c1c1c1;
+  width: 30px;
   height: 20px;
   border-radius: 0.15em;
   margin-right: 0.5em;
-  background-color: var(--orange);
 }
 
 .form__component
@@ -84,10 +87,12 @@
   .check__content
   input[type="checkbox"]:checked
   + label::before {
-  content: "\002714";
+  content: "\002713";
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--orange);
+  color: white;
 }
 
 /* Checking*/
@@ -97,7 +102,6 @@
   border: 0;
   margin-top: 37px;
   background-color: var(--orange);
-  color: white;
   border-radius: 4px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -107,4 +111,11 @@
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+}
+.form__component .content .form__content form button a {
+  text-decoration: none;
+  color: white;
+}
+.form__component .content .form__content form button:disabled {
+  opacity: 0.8;
 }
