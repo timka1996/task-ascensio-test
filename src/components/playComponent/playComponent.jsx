@@ -10,7 +10,7 @@ function PlayComponent() {
         </h1>
       </div>
       <div className="play__down">
-        <img src={image} />
+        <img src={image} alt="img" />
       </div>
     </div>
   );
