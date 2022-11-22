@@ -6,7 +6,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+//root
 :root {
   --OpenSans: "Open Sans";
   --red: #f95847;
